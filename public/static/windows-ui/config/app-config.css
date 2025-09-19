@@ -1,0 +1,11 @@
+:root {
+  --PrimaryColor: #000000; /* Change of your choice */
+  --PrimaryColorLight: #ffffff; /* Lighter version of --PrimaryColor for DarkMode */
+}
+body {
+  font-family: "Segoe UI";
+}
+
+[data-theme="dark"] ::selection {
+  background-color: #2E517E;
+}
